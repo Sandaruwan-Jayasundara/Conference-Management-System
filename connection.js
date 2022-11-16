@@ -1,7 +1,7 @@
 const mongoose=require("mongoose");
 
 //Database connection
-const MONGODB_URL='mongodb+srv://admin:admin@icaf.b3fyk.mongodb.net/ICAF?retryWrites=true&w=majority';
+const MONGODB_URL='ADD MONGODB URL';
 
 const connectDB =async () =>{
     await mongoose.connect(MONGODB_URL,{
